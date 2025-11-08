@@ -9,7 +9,7 @@ export const HeroSection = () => {
     /**px-4: padding theo chiều ngang */
     /** */
     <section
-      id="hero" 
+      id="hero"
       className="relative min-h-screen flex flex-col items-center justify-center px-4"
     >
       <div className="container max-w-4xl mx-auto text-center z-10">
@@ -27,9 +27,10 @@ export const HeroSection = () => {
           </h1>
           {/**text-lg: font-size 1.125rem (18px) */}
           <p className="text-lg md:text-xl text-muted-foreground max-2-2xl max-auto opacity-0 animate-fade-in-delay-3">
-            I create stellar web experiences with modern technologies.
-            Specializing in front-end development, I build interfaces that are
-            both beautiful and functional.
+            I create great web experiences for users using modern technology. I
+            specialize in front-end development, and build interfaces that are
+            both beautiful and useful. I want to use my skills to build
+            responsive and user-friendly web applications.
           </p>
 
           <div className="pt-4 opacity-0 animate-fade-in-delay-4">

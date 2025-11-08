@@ -3,30 +3,50 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
+    title: "FurniSpace",
+    description:
+      "The foundation for building and choosing the style for your room through luxury furniture",
     image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
+    tags: ["React", "TailwindCSS", "Nest.js", "MongoDB"],
     demoUrl: "#",
     githubUrl: "#",
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
-    description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
+    title: "My Protfolio",
+    description: "A beautiful landing page app using React and Tailwind.",
     image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
+    tags: ["React", "TailwindCSS"],
+    demoUrl: "#",
+    githubUrl: "#",
+  },
+  {
+    id: 1,
+    title: "AI Study Buddy",
+    description:
+      "1 AI-integrated website interface makes learning easier for students",
+    image: "/projects/project3.png",
+    tags: ["React", "TypeScript", "Nest.js", "MongoDB"],
     demoUrl: "#",
     githubUrl: "#",
   },
   {
     id: 3,
-    title: "E-commerce Platform",
+    title: "Health Plus",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
-    image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
+      "A user-friendly and beautiful healthcare interface. With the function of scheduling appointments and health monitoring.",
+    image: "/projects/project4.png",
+    tags: ["React", "TailwindCSS"],
+    demoUrl: "#",
+    githubUrl: "#",
+  },
+  {
+    id: 4,
+    title: "Chum Coffee",
+    description:
+      "Simple and easy to use coffee selling interface for users",
+    image: "/projects/project5.png",
+    tags: ["HTML", "CSS", "JavaScript"],
     demoUrl: "#",
     githubUrl: "#",
   },
