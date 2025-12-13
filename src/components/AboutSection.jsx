@@ -16,20 +16,27 @@ export const AboutSection = () => {
             </h3>
 
             <p className="text-muted-foreground">
-              With over 6 month of experience in web development, I specialize
-              in creating responsive, accessible, and performant web
-              applications using modern technologies.
+              With 4 years of study and experience in web development, I
+              specialize in creating responsive, accessible and high-performance
+              web applications using modern technologies.
             </p>
             <p className="text-muted-foreground">
               I'm passionate about creating elegant solutions to complex
-              problems, and I'm costantly learning new technologies and
-              techniques to stay at the forefornt of the ever-evolving wed
+              problems, and I am constantly learning new technologies and
+              techniques to stay ahead in the ever-evolving technological
               landscape.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
-              <a href="#contact" className="cosmic-button">Get In Touch</a>
-              <a href="" className="px-6 py-2 rounded-full border -border-primary text-primary hover:bg-primary/10 transition-colors duration-300">Dowload CV</a>
+              <a href="#contact" className="cosmic-button">
+                Get In Touch
+              </a>
+              <a
+                href=""
+                className="px-6 py-2 rounded-full border -border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
+              >
+                Download CV
+              </a>
             </div>
           </div>
 
@@ -37,7 +44,7 @@ export const AboutSection = () => {
             <div className="gradient-border p-6 card-hover">
               <div className="flex items-start gap-4">
                 <div className="p-3 rounded-full bg-primary/10">
-                  <Code className="h-6 w-6 text-primary"/>
+                  <Code className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
                   <h4 className="font-semibold text-lg">Web Development</h4>
@@ -52,7 +59,7 @@ export const AboutSection = () => {
             <div className="gradient-border p-6 card-hover">
               <div className="flex items-start gap-4">
                 <div className="p-3 rounded-full bg-primary/10">
-                  <User className="h-6 w-6 text-primary"/>
+                  <User className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
                   <h4 className="font-semibold text-lg">Ui/UX Design</h4>
@@ -67,11 +74,11 @@ export const AboutSection = () => {
             <div className="gradient-border p-6 card-hover">
               <div className="flex items-start gap-4">
                 <div className="p-3 rounded-full bg-primary/10">
-                  <Briefcase className="h-6 w-6 text-primary"/>
+                  <Briefcase className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
                   <h4 className="font-semibold text-lg">Project Management</h4>
-                  <p className="text-muded-foreground">
+                  <p className="text-muted-foreground">
                     Leading projects from conveption to completion with agile
                     methodologies
                   </p>
