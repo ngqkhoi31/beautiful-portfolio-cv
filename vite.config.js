@@ -11,5 +11,5 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  base: '/beautiful-portfolio-cv'
+  base: process.env.NODE_ENV === "production" ? "/beautiful-portfolio/" : "/",
 });
