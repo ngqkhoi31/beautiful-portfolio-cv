@@ -9,7 +9,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route index element={<Home />} />
-          <Route path="*" element={<NotFound />} />
+          <Route path="https://ngqkhoi31.github.io/beautiful-portfolio-cv/" element={<Home />} />
         </Routes>
       </BrowserRouter>
     </>
